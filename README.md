@@ -18,8 +18,7 @@ API RESTful desenvolvida com Node.js, Express e MongoDB para gerenciamento de pr
   - Mongoose
   - Docker
   - Jest (para testes)
- 
-    
+
 - **Frontend:**
 
   - React.js
