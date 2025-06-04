@@ -31,7 +31,7 @@ const ProductDetail = () => {
         productService.getProductAverageRating(id),
       ]);
       setProduct(productResponse.data);
-      setReviews(reviewsResponse.data);
+      setReviews(reviewsResponse.data.reviews || []);
       setAverageRating(ratingResponse.data.averageRating);
     } catch (err) {
       setError('Não foi possível carregar os dados do produto.');

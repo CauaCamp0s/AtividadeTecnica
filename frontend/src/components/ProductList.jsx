@@ -17,7 +17,7 @@ const ProductList = () => {
       setLoading(true);
       setError(null);
       const response = await productService.getAllProducts();
-      setProducts(response.data);
+      setProducts(response.data.products || []);
     } catch (err) {
       setError(
         err.response?.data?.message ||
