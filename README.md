@@ -35,6 +35,8 @@ O modo mais fácil de executar a aplicação completa é usando Docker Compose, 
 ```bash
 docker-compose up --build
 ```
+# O frontend estará disponível em: http://localhost ou http://localhost:80
+# O backend estará rodando em: http://localhost:5000
 
 ## 📚 Documentação da API
 
