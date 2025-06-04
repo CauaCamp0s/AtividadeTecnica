@@ -1,4 +1,3 @@
-Aqui está uma versão aprimorada do README, incluindo a informação de que o projeto utiliza o modelo MVC e melhorando a estrutura e clareza do conteúdo:
 
 # 🚀 Desafio Técnico - DFcom Sistemas
 
